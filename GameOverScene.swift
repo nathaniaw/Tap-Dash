@@ -13,6 +13,8 @@ struct GameOverScene: View {
         ZStack {
             
             Image("Background")
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             
             Rectangle()
                 .opacity(0.25)

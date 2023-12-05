@@ -17,6 +17,8 @@ struct StartingView: View {
 //                Color("Blue")
 //                    .ignoresSafeArea()
                 Image ("startingPage")
+                    .resizable()
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                     .ignoresSafeArea()
 //                    .position(x: geometry.size.width / 2, y: geometry.size.height * 0.5)
                 Image ("game instruction")
@@ -45,7 +47,6 @@ struct StartingView: View {
                         Text("Start")
                             .font(.headline)
                             .foregroundColor(.white)
-                            .padding(30)
                             .frame(maxWidth: 250, maxHeight: 32)
                     }
                     .buttonStyle(.borderedProminent)
@@ -53,6 +54,7 @@ struct StartingView: View {
                     .cornerRadius(20)
                     .padding(.bottom,80)
                     .shadow(color: .gray, radius: 4, x: 2, y: 4)
+                    .padding(30)
                 }
                 
             }

@@ -28,6 +28,7 @@ class GameScene: SKScene {
         self.addTapSection()
         
         let background = SKSpriteNode(imageNamed: "Background")
+        background.size = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         background.zPosition = -1
         
         if let sceneView = self.view {

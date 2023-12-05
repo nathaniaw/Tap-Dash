@@ -35,7 +35,7 @@ struct GameView: View {
                 else{
                     
                     SpriteView(scene: self.scene)
-                        .frame(width: .infinity, height: .infinity)
+                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                         .ignoresSafeArea(.all)
                         .onAppear{
 //                            playBackgroundSound()
@@ -52,6 +52,8 @@ struct GameView: View {
                         .cornerRadius(10)
                         .overlay(RoundedRectangle(cornerRadius: 10)
                             .stroke(lineWidth: 4.0))
+                    
+                    .padding(.top, 40)
                 }
             }
             .navigationBarBackButtonHidden(true)
