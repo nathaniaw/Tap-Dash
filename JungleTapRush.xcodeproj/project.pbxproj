@@ -60,6 +60,7 @@
 		B9DAB6562A1C6155001E5B13 /* SquareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareModel.swift; sourceTree = "<group>"; };
 		B9DAB6582A1DABD9001E5B13 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		B9DAB65A2A1DE461001E5B13 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		B9EA7EEA2B1F244C00611E0F /* JungleTapRush-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "JungleTapRush-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		B9DAB61C2A1C6073001E5B13 = {
 			isa = PBXGroup;
 			children = (
+				B9EA7EEA2B1F244C00611E0F /* JungleTapRush-Info.plist */,
 				B977A6962A1FC3C800FD5817 /* Logo dll.xcassets */,
 				B9DAB65A2A1DE461001E5B13 /* StartingView.swift */,
 				B9DAB6582A1DABD9001E5B13 /* GameOverScene.swift */,
@@ -452,6 +454,7 @@
 				DEVELOPMENT_TEAM = W4VRH3QY98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JungleTapRush-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Jungle Tap";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -486,6 +489,7 @@
 				DEVELOPMENT_TEAM = W4VRH3QY98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JungleTapRush-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Jungle Tap";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
