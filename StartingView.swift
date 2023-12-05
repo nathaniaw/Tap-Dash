@@ -63,6 +63,7 @@ struct StartingView: View {
                  AudioManager.instance.playSound()
              }
         }
+        .preferredColorScheme(.light)
     }
 }
 
