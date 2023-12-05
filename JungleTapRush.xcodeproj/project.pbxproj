@@ -45,14 +45,14 @@
 		B926C4542B1EFCB2007232C2 /* backgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundSound.mp3; sourceTree = "<group>"; };
 		B96FB2822A20451300C30421 /* Asset Logo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Asset Logo.xcassets"; sourceTree = "<group>"; };
 		B977A6962A1FC3C800FD5817 /* Logo dll.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Logo dll.xcassets"; sourceTree = "<group>"; };
-		B9DAB6252A1C6073001E5B13 /* TapDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAB6252A1C6073001E5B13 /* JungleTapRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JungleTapRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAB6282A1C6073001E5B13 /* TapTapMissApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapMissApp.swift; sourceTree = "<group>"; };
 		B9DAB62A2A1C6073001E5B13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9DAB62C2A1C6074001E5B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DAB62F2A1C6074001E5B13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B9DAB6352A1C6074001E5B13 /* TapDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAB6352A1C6074001E5B13 /* JungleTapRushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JungleTapRushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAB6392A1C6074001E5B13 /* TapTapMissTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapMissTests.swift; sourceTree = "<group>"; };
-		B9DAB63F2A1C6074001E5B13 /* TapDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAB63F2A1C6074001E5B13 /* JungleTapRushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JungleTapRushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAB6432A1C6074001E5B13 /* TapTapMissUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapMissUITests.swift; sourceTree = "<group>"; };
 		B9DAB6452A1C6074001E5B13 /* TapTapMissUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapMissUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B9DAB6522A1C60FB001E5B13 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		B9DAB6262A1C6073001E5B13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9DAB6252A1C6073001E5B13 /* TapDash.app */,
-				B9DAB6352A1C6074001E5B13 /* TapDashTests.xctest */,
-				B9DAB63F2A1C6074001E5B13 /* TapDashUITests.xctest */,
+				B9DAB6252A1C6073001E5B13 /* JungleTapRush.app */,
+				B9DAB6352A1C6074001E5B13 /* JungleTapRushTests.xctest */,
+				B9DAB63F2A1C6074001E5B13 /* JungleTapRushUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9DAB6242A1C6073001E5B13 /* TapDash */ = {
+		B9DAB6242A1C6073001E5B13 /* JungleTapRush */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DAB6492A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDash" */;
+			buildConfigurationList = B9DAB6492A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRush" */;
 			buildPhases = (
 				B9DAB6212A1C6073001E5B13 /* Sources */,
 				B9DAB6222A1C6073001E5B13 /* Frameworks */,
@@ -166,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = TapDash;
+			name = JungleTapRush;
 			productName = TapTapMiss;
-			productReference = B9DAB6252A1C6073001E5B13 /* TapDash.app */;
+			productReference = B9DAB6252A1C6073001E5B13 /* JungleTapRush.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9DAB6342A1C6074001E5B13 /* TapDashTests */ = {
+		B9DAB6342A1C6074001E5B13 /* JungleTapRushTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DAB64C2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDashTests" */;
+			buildConfigurationList = B9DAB64C2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRushTests" */;
 			buildPhases = (
 				B9DAB6312A1C6074001E5B13 /* Sources */,
 				B9DAB6322A1C6074001E5B13 /* Frameworks */,
@@ -184,14 +184,14 @@
 			dependencies = (
 				B9DAB6372A1C6074001E5B13 /* PBXTargetDependency */,
 			);
-			name = TapDashTests;
+			name = JungleTapRushTests;
 			productName = TapTapMissTests;
-			productReference = B9DAB6352A1C6074001E5B13 /* TapDashTests.xctest */;
+			productReference = B9DAB6352A1C6074001E5B13 /* JungleTapRushTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9DAB63E2A1C6074001E5B13 /* TapDashUITests */ = {
+		B9DAB63E2A1C6074001E5B13 /* JungleTapRushUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DAB64F2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDashUITests" */;
+			buildConfigurationList = B9DAB64F2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRushUITests" */;
 			buildPhases = (
 				B9DAB63B2A1C6074001E5B13 /* Sources */,
 				B9DAB63C2A1C6074001E5B13 /* Frameworks */,
@@ -202,9 +202,9 @@
 			dependencies = (
 				B9DAB6412A1C6074001E5B13 /* PBXTargetDependency */,
 			);
-			name = TapDashUITests;
+			name = JungleTapRushUITests;
 			productName = TapTapMissUITests;
-			productReference = B9DAB63F2A1C6074001E5B13 /* TapDashUITests.xctest */;
+			productReference = B9DAB63F2A1C6074001E5B13 /* JungleTapRushUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9DAB6202A1C6073001E5B13 /* Build configuration list for PBXProject "TapDash" */;
+			buildConfigurationList = B9DAB6202A1C6073001E5B13 /* Build configuration list for PBXProject "JungleTapRush" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9DAB6242A1C6073001E5B13 /* TapDash */,
-				B9DAB6342A1C6074001E5B13 /* TapDashTests */,
-				B9DAB63E2A1C6074001E5B13 /* TapDashUITests */,
+				B9DAB6242A1C6073001E5B13 /* JungleTapRush */,
+				B9DAB6342A1C6074001E5B13 /* JungleTapRushTests */,
+				B9DAB63E2A1C6074001E5B13 /* JungleTapRushUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		B9DAB6372A1C6074001E5B13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9DAB6242A1C6073001E5B13 /* TapDash */;
+			target = B9DAB6242A1C6073001E5B13 /* JungleTapRush */;
 			targetProxy = B9DAB6362A1C6074001E5B13 /* PBXContainerItemProxy */;
 		};
 		B9DAB6412A1C6074001E5B13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9DAB6242A1C6073001E5B13 /* TapDash */;
+			target = B9DAB6242A1C6073001E5B13 /* JungleTapRush */;
 			targetProxy = B9DAB6402A1C6074001E5B13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,6 +452,8 @@
 				DEVELOPMENT_TEAM = W4VRH3QY98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jungle Tap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,11 +464,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathania-Wiranda.TapTapMiss";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathania-Wiranda.JungleTap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,6 +486,8 @@
 				DEVELOPMENT_TEAM = W4VRH3QY98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jungle Tap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,11 +498,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathania-Wiranda.TapTapMiss";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathania-Wiranda.JungleTap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -515,7 +525,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapDash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JungleTapRush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JungleTapRush";
 			};
 			name = Debug;
 		};
@@ -535,7 +545,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapDash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JungleTapRush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JungleTapRush";
 			};
 			name = Release;
 		};
@@ -578,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9DAB6202A1C6073001E5B13 /* Build configuration list for PBXProject "TapDash" */ = {
+		B9DAB6202A1C6073001E5B13 /* Build configuration list for PBXProject "JungleTapRush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DAB6472A1C6074001E5B13 /* Debug */,
@@ -587,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DAB6492A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDash" */ = {
+		B9DAB6492A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DAB64A2A1C6074001E5B13 /* Debug */,
@@ -596,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DAB64C2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDashTests" */ = {
+		B9DAB64C2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRushTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DAB64D2A1C6074001E5B13 /* Debug */,
@@ -605,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9DAB64F2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "TapDashUITests" */ = {
+		B9DAB64F2A1C6074001E5B13 /* Build configuration list for PBXNativeTarget "JungleTapRushUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DAB6502A1C6074001E5B13 /* Debug */,
